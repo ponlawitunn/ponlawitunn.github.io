@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout - Loco for Coco</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Checkout.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descirption" content="Shopping cart, shipping method">
+</head>
+<body>
+<header class="tophead">
+    <section>
+        <figure>
+            <img src="./Images/coco-logo.jpg" alt="Logo" title="Loco For Coco Logo">
+        </figure>
+    </section>
+    <nav>
+        <ul>
+            <li><a href="index-home.html">Home</a></li>
+            <li><a href="Webshop.html">Products</a></li>
+            <li><a href="Contact-annet.html">Contact</a></li>
+            <li><a href="Checkout.html">Checkout</a></li>
+        </ul>
+    </nav>
+    <section class="searchbar">
+        <form action="#">
+            <input type="text" name="search" placeholder="Search..">
+            <button class="search-box-button">&#128269;</button>
+        </form>
+    </section>
+</header>
+<main>
+    <section class="maintoppic">
+        <figure>
+            <img class="flex-img" src="Images/CaocaoBags.jpg"">
+        </figure>
+    </section>
+    <section class="personal-data">
+        <section class="form">
+            <header><h1>Checkout details</h1></header>
+            <form>
+                <label for="fname"><strong>Name: </strong></label>
+                <input id="fname" type="text" name="name" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+                <label for="lname">Last name: </label>
+                <input id="lname" type="text" name="name" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+                <label for="address">Street address: </label>
+                <input id="address" type="text" name="address" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+                <label for="city">City: </label>
+                <input id="city" type="text" name="city" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+                <label for="zipcode">Zip code: </label>
+                <input id="zipcode" type="number" name="zipcode" pattern="[1-9 ]+" minlength="3" maxlength="25" required>
+                <label for="Country">Country: </label>
+                <input id="Country" type="text" name="Country" pattern="[A-Za-z ]+" minlength="3" maxlength="25" required>
+                <label for="email">Email: </label>
+                <input id="email" type="email" name="email">
+                <label for="textarea">If you have any special requests: </label>
+                <article class="border-textarea"><textarea class="textarea" id="textarea" name="textarea" maxlength="255" minlength="10" rows="5" cols="88e"></textarea>
+                </article>
+
+                <section class="radio-buttons">
+                    <header><h3>Shipping method</h3></header>
+                    <div class="shipment-form">
+                        <div class="shipment"><input type="radio" name="shipping-method" value="Standard" checked><label>Standard</label></div>
+                        <div class="shipment"><input type="radio" name="shipping-method" value="Express" checked><label>Express</label></div>
+                        <div class="shipment"><input type="radio" name="shipping-method" value="Home Delivery" checked><label>Home delivery</label></div>
+                    </div>
+                    <div class="submit-button">
+                        <button id="submit">Confirm Order</button>
+                    </div>
+                </section>
+            </form>
+        </section>
+    </section>
+    <section class="order-details">
+        <header><h1>Your items</h1></header>
+
+        <section class="product-sum">
+            <h2>You have not added any items to your cart!</h2>
+    </section>
+</main>
+<footer>
+    <section class="leftbox-footer">
+        <header>
+            <h2>Loco For Coco AB&trade;</h2>
+        </header>
+        <article>
+            <p>Chokladgatan 1</p>
+            <p>254 36 helsingborg, Sweden</p>
+            <p>Phone: +46 42 22 22 22</p>
+            <p>E-mail: contact@locoforcoco.se</p>
+            <p>Opening hours: Mon-Fri 10am-6pm, Sat 10am-3pm Sun Closed</p>
+        </article>
+    </section>
+    <section>
+        <header class="middle-name">
+            <h2>&copy; Loco For Coco AB&trade;, 2017</h2>
+        </header>
+    </section>
+    <section class="socialmedia">
+        <header>
+            <h2>Follow us!</h2>
+        </header>
+        <article>
+            <ul class="social-media-loco">
+                <li class="social-media-loco-1"><a class="social-media-loco-2" href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a> </li>
+                <li class="social-media-loco-1"><a class="social-media-loco-2" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a> </li>
+                <li class="social-media-loco-1"><a class="social-media-loco-2" href="#"><i class="fa fa-google-plus" aria-hidden="true"> </i></a> </li>
+            </ul>
+        </article>
+    </section>
+</footer>
+</body>
+</html>

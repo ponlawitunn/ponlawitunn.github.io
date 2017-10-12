@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Loco for Coco</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contactmarcus.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header class="tophead">
+    <section>
+        <figure>
+            <img src="./Images/coco-logo.jpg" alt="Logo" title="Loco For Coco Logo">
+        </figure>
+    </section>
+    <nav>
+        <ul>
+            <li><a href="index-home.html">Home</a></li>
+            <li><a href="Webshop.html">Products</a></li>
+            <li><a href="contactmarcus.html">Contact</a></li>
+            <li><a href="Checkout.html">Checkout</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <figure>
+            <img class="flex-img" src="Images/phone.jpg"">
+        </figure>
+    </section>
+    <section class="contactinfo">
+        <header>
+            <h2>Contact Info</h2>
+        </header>
+        <section class="contact">
+            <h4>Loco For Coco AB&trade;</h4>
+            <p>Phone: 46 42 22 22 22</p>
+            <p>E-mail: contact@locoforcoco.se</p>
+            <h5 >Adress</h5>
+            <p>Chokladgatan 1</p>
+            <p>25437 Helsingborg, Sweden</p>
+            <section class="googlemap">
+                <article class="map">
+                    <figure>
+                        <img src="./Images/Karta.PNG" alt="google map image" title="Here we are, google maps">
+                    </figure>
+                </article>
+            </section>
+        </section>
+        <section class="form">
+            <header><h2>Contact us</h2></header>
+            <form>
+                <label for="fname"><strong>Name: </strong></label>
+                <input id="fname" type="text" name="name" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+                <label for="lname">Last name: </label>
+                <input id="lname" type="text" name="name" pattern="[A-Öa-ö ]+" minlength="3" maxlength="25" required>
+                <label for="email">Email: </label>
+                <input id="email" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+                <label for="textarea">Enter message here: </label>
+                <article class="border-textarea"><textarea class="textarea" id="textarea" name="textarea" maxlength="255" minlength="10" rows="5" cols="88e"></textarea>
+                </article>
+                <div class="submit-button">
+                    <button id="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </section>
+</main>
+<footer>
+    <section class="leftbox-footer">
+        <header>
+            <h2>Loco For Coco AB&trade;</h2>
+        </header>
+        <article>
+            <p>Chokladgatan 1</p>
+            <p>254 36 helsingborg, Sweden</p>
+            <p>Phone: +46 42 22 22 22</p>
+            <p>E-mail: contact@locoforcoco.se</p>
+            <p>Opening hours: Mon-Fri 10am-6pm, Sat 10am-3pm Sun Closed</p>
+        </article>
+    </section>
+    <section>
+        <header class="middle-name">
+            <h2>&copy; Loco For Coco AB&trade;, 2017</h2>
+        </header>
+    </section>
+    <section class="socialmedia">
+        <header>
+            <h2>Follow us!</h2>
+        </header>
+        <article>
+            <ul class="social-media-loco">
+                <li class="social-media-loco-1"><a class="social-media-loco-2" href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a> </li>
+                <li class="social-media-loco-1"><a class="social-media-loco-2" href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a> </li>
+                <li class="social-media-loco-1"><a class="social-media-loco-2" href="#"><i class="fa fa-google-plus" aria-hidden="true"> </i></a> </li>
+            </ul>
+        </article>
+    </section>
+</footer>
+</body>
+</html>
